@@ -1,11 +1,10 @@
 import { defineConfig } from 'vite'
 import uni from '@dcloudio/vite-plugin-uni'
 import { resolve } from 'path'
-import vueJsx from '@vitejs/plugin-vue-jsx'
 
 export default defineConfig({
   envDir: resolve(__dirname, 'env'),
-  plugins: [uni(), vueJsx()],
+  plugins: [uni()],
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')

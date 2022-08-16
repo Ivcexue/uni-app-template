@@ -1,8 +1,8 @@
 <template>
   <view class="content">
     <view class="text-area">
-      <text class="title">{{ name }}</text>
-      <uni-badge text="1"></uni-badge>
+      <text class="title">{{ name }}21312</text>
+      <u-button type="primary" text="确定" />
     </view>
   </view>
 </template>

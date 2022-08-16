@@ -16,5 +16,5 @@
     "lib": ["esnext", "dom"],
     "types": ["@dcloudio/types", "vite/client"],
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "env/index.d.ts"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "env/index.d.ts"],
 }

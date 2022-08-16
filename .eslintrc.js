@@ -37,7 +37,8 @@ module.exports = {
     'no-param-reassign': 'off',
     'vue/multi-word-component-names': 'off',
     'no-unused-vars': ['error', { varsIgnorePattern: '.*', args: 'none' }],
-    'import/no-extraneous-dependencies': ['error', { devDependencies: true }]
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'import/prefer-default-export': 'off'
   },
   globals: {
     uni: true,
